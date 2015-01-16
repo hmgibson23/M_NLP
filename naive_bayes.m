@@ -3,9 +3,9 @@
 clear all;
 
 disp('====Naive Bayes===');
-disp('Reading featur vector');
+disp('Reading feature vector');
 
-featurs = csvread('full featured dataset\forWeka_featuresonly.csv');
+featurs = csvread('test.csv');
 
 num_data = size(featurs,1); %5000;
 size_training = floor(.8*num_data);
